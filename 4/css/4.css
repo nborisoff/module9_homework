@@ -1,0 +1,31 @@
+input, button {
+    font-size: 14px;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 5px;
+}
+
+input {
+    display: block;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+button {
+    height: 30px;
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 100, 231);
+}
+
+.result {
+    margin-top: 15px;
+}
